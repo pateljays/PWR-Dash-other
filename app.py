@@ -15,10 +15,10 @@ df['Treatment Completion Date'] = pd.to_datetime(df['Treatment Completion Date']
 #                   'Perio_Pockets': 'Perio Pockets', 'Health_Literacy':'Health Literacy'}, inplace=True)
 # 'Treatment Completion Date':'Date'
 
-variables = ['Overall Performance', 'Anxiety - New',
-             'Diabetes A1c','Social_Q1','Chewing - New','Speaking - New','Comfort - New',
-             'Health Literacy - New', 'BP Prog. Favored','BP Improv. Favored','Smoking - New',
-             'Smoking Medical',	'Smoking Perio', 'Alcohol Use',	'Caries Lesions', 'Perio Inflammation',
+variables = ['Overall Performance', 'Anxiety - New','Social_Q1','Chewing - New',
+             'Speaking - New','Comfort - New','BP Prog. Favored',
+             'BP Improv. Favored',
+             'Caries Lesions', 'Perio Inflammation',
              'Perio Pockets','Caries Risk','Oral Hygiene']
 
 # Define colors for the bars
